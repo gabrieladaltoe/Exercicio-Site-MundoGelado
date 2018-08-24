@@ -19,7 +19,7 @@ ul li {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 2vw;
     margin: 0;
 }
 
@@ -64,6 +64,10 @@ h2 {
     margin-left: 15%;
 }
 
+.menu__mobile {
+    display: none;
+}
+
 .navegacao__menu-itens {
     color: rgba(255,255,255,0);
     padding-right: 10%;
@@ -89,7 +93,7 @@ h2 {
 .header h1 {
     margin: 0;
     color: #fff;
-    font-size: 102px;
+    font-size: 8vw;
     padding-top: 200px;
     text-transform: uppercase;
 }
@@ -223,7 +227,11 @@ section__box_1 {
     padding: 50px;
 }
 
-.footer a,p {
+.footer a{
+    color: #fff;
+}
+
+.footer p{
     color: #fff;
 }
 
@@ -233,4 +241,110 @@ section__box_1 {
 
 .footer__icons img {
     padding: 15px;
+}
+
+@media (max-width:420px) {
+
+    h2 {
+        font-size: 17px;
+        margin: 0;
+    }
+
+    .navegacao__menu-itens {
+        display: none;
+    }
+
+    .menu__mobile {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-left: 10%;
+    }
+
+    .container {
+        width: 380px;
+        margin: 0 auto;
+    }
+
+    .header h1 {
+        font-size: 45px;
+    }
+
+
+    .header__subtitle h2 {
+        font-size: 17px;
+        margin: 0;
+    }
+
+    .section__Sobre {
+        background-color: #000;
+        height: 253px;
+        color: #fff;
+        width: 100%;
+        text-align: center;
+    }
+
+    .section__box {
+        width: 380px;
+    }
+
+    .section__sobre_descricao h2 {
+        text-align: center;
+        padding: 15px;
+        font-size: 15;
+    }
+
+    .section__destinos_siberia>img {
+        width: 100%;
+    }
+
+    .section__destinos_siberia {
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    .section__destinos_siberia-texto {
+        width: 100%;
+        /* display: block; */
+    }
+
+    .section__destinos_siberia-texto {
+        display: block;
+        width: 100%;
+        padding: 30px 0 0 0;
+        border-left: 0;
+        /* border-bottom: 4px solid #36b0e0; */
+    }
+
+    .section__destinos_siberia {
+        display: block;
+        align-items: center;
+        padding: 40px 0 0 0;
+    }
+
+    .section__box_coluna {
+        width: 100%;
+        display: block;
+        vertical-align: center;
+        margin: 0 auto;
+    }
+
+    .text-box, .text-box2 {
+        display: block;
+        vertical-align: middle;
+        text-align: center;
+        padding-left: 0px;
+        padding: 20px;
+    }
+
+    .box_groelandia, .box_antartida {
+        display: block;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .blue_line {
+        display: none;
+    }
+
 }
