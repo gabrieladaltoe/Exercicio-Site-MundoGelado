@@ -36,11 +36,16 @@ h2 {
     margin: 0 auto;
 }
 
+@media (max-width:960px){
+    .continer {
+        width: 100%;
+}
+}
 
 /*NEVEGACAO*/
 
 .navegacao {
-    background-color: #829dad ;
+    background-color: #829dad;
 }
 
 
@@ -285,7 +290,10 @@ section__box_1 {
     }
 
     .section__box {
-        width: 380px;
+        width: 100%;
+        text-align: center;
+        margin: 0, auto;
+        border: 0;
     }
 
     .section__sobre_descricao h2 {
