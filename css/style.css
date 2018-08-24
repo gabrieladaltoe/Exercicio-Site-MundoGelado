@@ -213,3 +213,24 @@ section__box_1 {
 
 /*ONDE ESTAMOS*/
 
+/*FOOTER*/
+
+.footer {
+    background-color: #000;
+    margin: 0 auto;
+    height: 250px;
+    text-align: center;
+    padding: 50px;
+}
+
+.footer a,p {
+    color: #fff;
+}
+
+.footer__icons {
+    padding: 15px;
+}
+
+.footer__icons img {
+    padding: 15px;
+}
