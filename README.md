@@ -1,3 +1,3 @@
 # Site MundoGelado
 
-Exercício da semana de css responsivo do curso Reprograma. 
+Exercício da semana a partir de css responsivo do curso Reprograma. 
